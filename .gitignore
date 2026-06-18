@@ -1,1 +1,10 @@
 *.env
+*.dll
+*.exe
+*.log
+*.tmp
+*.bak
+*.swp
+*.pyc
+*.pyo
+*.gz
