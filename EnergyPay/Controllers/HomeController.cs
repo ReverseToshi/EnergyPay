@@ -38,4 +38,5 @@ public class HomeController : Controller
 
         return Content($"Customers: {count}");
     }
+    
 }
