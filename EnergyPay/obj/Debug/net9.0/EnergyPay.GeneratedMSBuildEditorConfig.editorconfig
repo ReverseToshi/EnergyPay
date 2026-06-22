@@ -36,6 +36,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/toshi/Documents/EnergyPay/EnergyPay/Views/Payments/TopUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudHMvVG9wVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/toshi/Documents/EnergyPay/EnergyPay/Views/Payments/TopUpSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF5bWVudHMvVG9wVXBTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/toshi/Documents/EnergyPay/EnergyPay/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

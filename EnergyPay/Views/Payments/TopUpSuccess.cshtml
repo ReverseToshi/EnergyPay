@@ -1,0 +1,9 @@
+<h2>Payment Successful</h2>
+
+@if(TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+        <p>Thank you for your payment. Your account has been topped up successfully.</p>
+    </div>
+}

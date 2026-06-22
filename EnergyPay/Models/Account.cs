@@ -2,8 +2,7 @@ namespace EnergyPay.Models;
 
 public class Account
 {
-    public int Id { get; set; }
-    public string AccountNumber { get; set; }
+    public string AccountId { get; set; } = null!;
     public decimal Balance { get; set; }
 
     public int CustomerId { get; set; }
@@ -15,10 +14,9 @@ public class Account
     public ICollection<Reading> Readings { get; set; }
         = new List<Reading>();
 
-    public Account(int id, string accountNumber, decimal balance, int customerId)
+    public Account(string accountNumber, decimal balance, int customerId)
     {
-        Id = id;
-        AccountNumber = accountNumber;
+        AccountId = accountNumber;
         Balance = balance;
         CustomerId = customerId;
     }
