@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using EnergyPay.ViewModels;
 using EnergyPay.Services;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 namespace EnergyPay.Controllers;
 
+[Authorize]
 public class PaymentController : Controller
 {
 
@@ -20,6 +23,11 @@ public class PaymentController : Controller
     [HttpPost]
     public async Task<IActionResult> TopUp(TopViewModel model)
     {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+        {
+            return Unauthorized();
+        }   
         if (ModelState.IsValid)
         {
             // Process the top-up logic here

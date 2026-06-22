@@ -2,8 +2,10 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using EnergyPay.Models;
 using EnergyPay.Data;
+using System.Security.Claims;
 
 namespace EnergyPay.Controllers;
+
 
 public class HomeController : Controller
 {

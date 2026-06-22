@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnergyPay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb9386a07206448e935fc2e861da5402fd5bb45c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+661fa5e1c494e7e1a3055687aab84aa9558e1ee9")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnergyPay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnergyPay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
