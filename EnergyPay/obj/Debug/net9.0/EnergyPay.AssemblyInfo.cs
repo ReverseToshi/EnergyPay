@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnergyPay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+661fa5e1c494e7e1a3055687aab84aa9558e1ee9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dd4b43830f7c58946f64f637ea0add8582e8456")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnergyPay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnergyPay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
